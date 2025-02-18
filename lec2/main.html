@@ -41,6 +41,65 @@
         text-decoration: none;
      }
 
+     .infobox {
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+     }
+
+     .textbox{
+        width: 500px;
+     }
+
+     img {
+        border-radius: 100%;
+        width: 250px;
+        padding: 20px;
+     }
+
+    .webbox {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+     }
+
+    .databox {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+    .textbox2{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 40px;
+     }
+
+    .button1 {
+        width: 100px;
+        height: 30px;
+        border: none;
+        font-size: larger;
+        background-color: skyblue;
+     }
+
+     iframe {
+        width: 600px;
+        height: 250px;
+     }
+
+     .videobox {
+        display: flex;
+        justify-content: space-around;
+
+     }
+
+    .text {
+        padding: 20px;
+    }
+
     </style>
 </head>
 <body>
@@ -55,6 +114,56 @@
             <li><a href="projects.html">projects</a></li>
             <li><a href="login.html">login</a></li>
         </ul>
+    </div>
+
+    <div class="infobox" >
+        <div class="textbox">
+            <h1>Lorem ipsum dolor sit amet </h1>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Excepturi illum nobis 
+                ad odit commodi, debitis autem, pariatur
+                unde nisi voluptates doloribus fuga 
+                temporibus quo quod dicta facere vero
+                laudantium. Cum.
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Ex assumenda, sed 
+                tempore illum, quo ratione dolorum a 
+                provident aliquid labore suscipit eos 
+                beatae consequatur sequi. Nulla cum 
+                minus amet facere?
+            </p>
+        </div>
+        <img src="/image/me.jpg" >
+    </div>
+
+    <h1 class="text" >Lorem ipsum dolor sit amet </h1>
+
+    <div class="webbox" >
+        <div class="databox" >
+            <div>
+            <iframe src="https://uvaiskhan-078.netlify.app/Home" ></iframe>
+           </div>
+            <div class="textbox2">
+                <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                    Voluptatibus, at possimus 
+                    reprehenderit natus impedit 
+                    veritatis, similique facere 
+                    aperiam distinctio magni numquam
+                     omnis adipisci nobis est beatae 
+                     nisi velit itaque reiciendis?
+                    </p>
+                <button class="button1" > more... </button>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text">Lorem ipsum dolor sit amet </h1>
+
+    <div class="videobox" >
+        <video src="https://videocdn.cdnpk.net/videos/d171072d-a786-54e3-b9cf-d90fdbb7b300/horizontal/previews/clear/small.mp4?token=exp=1739906148~hmac=632a8cae9899d4d33d6013a1f7c873c44a7e324a16d22e7a92ffeb7713b00021" controls loop autoplay ></video>
+        <video src="https://videocdn.cdnpk.net/videos/1417599a-cdb1-4b97-95fc-48d78a7630f5/horizontal/previews/clear/small.mp4?token=exp=1739906123~hmac=38d2a46553d3c4c217b29300cb9abf0cd181b6737cb2bb29bc2456e722c66586" controls loop autoplay></video>
+        <video src="https://videocdn.cdnpk.net/videos/83f0b068-24c6-4675-9fc8-ffb4772cdcc7/horizontal/previews/clear/small.mp4?token=exp=1739906197~hmac=8be4897b7ca8d7b9b86ad8e546ec7c4517683c6f19662901be51954d92b6149e" controls loop autoplay></video>
     </div>
 </body>
 </html>
